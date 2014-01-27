@@ -13,5 +13,5 @@ echo $username . $password;
 function login($u, $p) {
   mysql_connect(DB_HOST, DB_USER, DB_PASS) or die("Unable to connect to database");
   mysql_select_db(DB_NAME) or die("Unable to select database");
-  echo "Db selected";
+  
 }
